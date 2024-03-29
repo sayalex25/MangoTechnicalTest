@@ -13,11 +13,11 @@ const Range = ({ fixedRange }) => {
       try {
         let response;
         if (!fixedRange) {
-          response = await axios.get('http://demo8256533.mockable.io/');
+          response = await axios.get('https://demo8256533.mockable.io/');
           setMinValue(response.data.min);
           setMaxValue(response.data.max);
         } else {
-          response = await axios.get('http://demo8256533.mockable.io/range');
+          response = await axios.get('https://demo8256533.mockable.io/range');
           setRange(response.data);
           setMinValue(response.data[0]);
           setMaxValue(response.data[response.data.length - 1]);
