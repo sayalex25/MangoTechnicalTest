@@ -21,14 +21,16 @@ bash
    Una vez que estés dentro del directorio del proyecto, instala las dependencias necesarias ejecutando:
    ```bash
 npm install
-# or
+```
+or
+```bash
 yarn install
 ``` 
 Para iniciar el servidor de desarrollo y abrir el proyecto en tu navegador, ejecuta:
 ```bash
 npm run dev
-o si usas Yarn:
 ```
+o si usas Yarn:
 ```bash
 yarn dev
 ```
