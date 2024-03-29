@@ -13,27 +13,31 @@ Para configurar el proyecto en tu entorno local, sigue estos pasos:
 1. **Clona el repositorio** 
  
    Primero, clona este repositorio a tu máquina local utilizando el siguiente comando en tu terminal:
-bash
+   ```bash
     git clone https://github.com/sayalex25/MangoTechnicalTest.git
+    ```
+    Luego navega a la carpeta del proyecto:
+    ```bash
    cd tu-repositorio
+    ```
 2. **Instala las dependencias** 
  
    Una vez que estés dentro del directorio del proyecto, instala las dependencias necesarias ejecutando:
    ```bash
-npm install
-```
-or
-```bash
-yarn install
-``` 
-Para iniciar el servidor de desarrollo y abrir el proyecto en tu navegador, ejecuta:
-```bash
-npm run dev
-```
-o si usas Yarn:
-```bash
-yarn dev
-```
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ``` 
+    Para iniciar el servidor de desarrollo y abrir el proyecto en tu navegador, ejecuta:
+    ```bash
+    npm run dev
+    ```
+    o si usas Yarn:
+    ```bash
+    yarn dev
+    ```
  
 ## Estructura del Proyecto 
  
