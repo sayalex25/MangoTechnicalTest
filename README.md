@@ -1,40 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
+# Mi Proyecto Next.js 
+ 
+Este es un proyecto básico de Next.js que incluye un componente de ejemplo y una página principal. Utiliza Axios para realizar llamadas a APIs, Jest y React Testing Library para pruebas unitarias y de integración. 
+ 
+## Requisitos Previos 
+ 
+Antes de comenzar, asegúrate de tener instalado Node.js en tu sistema. Este proyecto ha sido creado y probado con Node.js versión 12.x o superior. 
+ 
+## Instalación 
+ 
+Para configurar el proyecto en tu entorno local, sigue estos pasos: 
+ 
+1. **Clona el repositorio** 
+ 
+   Primero, clona este repositorio a tu máquina local utilizando el siguiente comando en tu terminal:
+bash
+git clone https://tu-repositorio.git
+   cd tu-repositorio
+2. **Instala las dependencias** 
+ 
+   Una vez que estés dentro del directorio del proyecto, instala las dependencias necesarias ejecutando:
+bash
+npm install
+o si prefieres usar Yarn:
+bash
+yarn install
+## Ejecución del Proyecto 
+ 
+Para iniciar el servidor de desarrollo y abrir el proyecto en tu navegador, ejecuta:
+bash
 npm run dev
-# or
+o si usas Yarn:
+bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Visita  http://localhost:3000 en tu navegador para ver la aplicación en ejecución. 
+ 
+## Estructura del Proyecto 
+ 
+El proyecto sigue la estructura estándar de Next.js: 
+ 
+-  pages/ : Contiene las páginas de tu aplicación.  index.js  es la página principal. 
+-  components/ : Directorio para tus componentes de React. 
+-  public/ : Para archivos estáticos como imágenes. 
+-  styles/ : Para hojas de estilo CSS. 
+ 
+## Realizar Llamadas API con Axios 
+ 
+El proyecto utiliza Axios para manejar llamadas a APIs externas. Puedes encontrar ejemplos de cómo se utiliza Axios dentro de los componentes en el directorio  components/ . 
+ 
+## Pruebas 
+ 
+Este proyecto utiliza Jest y React Testing Library para pruebas. Para ejecutar las pruebas, utiliza el siguiente comando:
+bash
+npm run test
+o si usas Yarn:
+bash
+yarn test
+Esto ejecutará todas las pruebas definidas en el directorio  __tests__  y mostrará los resultados en la terminal. 
+ 
+## Contribuir 
+ 
+Para contribuir al proyecto, por favor, crea una rama para tu característica o corrección de bug, y luego envía un Pull Request (PR) contra la rama  main . 
+ 
+Asegúrate de que tus cambios pasen todas las pruebas y considera agregar pruebas nuevas para cualquier nueva funcionalidad. 
+ 
+## Licencia 
+ 
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo  LICENSE  para más detalles. 
+ 
+--- 
+ 
+Este README proporciona una guía básica para comenzar con el proyecto, ejecutarlo localmente, y contribuir al mismo. Asegúrate de personalizar las secciones según las necesidades específicas de tu proyecto, como la URL del repositorio y cualquier detalle adicional sobre la configuración o características del proyecto.
