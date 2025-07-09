@@ -70,5 +70,8 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo  LICENS
  
 --- 
  
-Este README proporciona una guía básica para comenzar con el proyecto y ejecutarlo localmente. 😊🎉❤️
+Este README proporciona una guía básica para comenzar con el proyecto y ejecutarlo localmente.
+
+sayalex
+
 
